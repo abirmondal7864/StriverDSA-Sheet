@@ -1,5 +1,5 @@
 package arrays.easy;
-
+//Using Kadane's Algo
 public class MaximumSubarray{
     public int maxSubArray(int[] nums) {
         int currSum= 0;

@@ -1,39 +1,30 @@
 package arrays.easy;
 
 
-// //First approach
-//import java.util.Arrays;
-//public class chocolateDistribution {
-//    public int findMinDiff(ArrayList<Integer> arr, int m) {
-//        Integer[] array= arr.toArray(new Integer[0]);
-//        Arrays.sort(array);
-//
-//        int minDiff=Integer.MAX_VALUE;
-//        int n= array.length;
-//
-//        int i=0;
-//        while(i+m-1<n){
-//            if(array[i+m-1]-array[i]<minDiff)
-//                minDiff=array[i+m-1]-array[i];
-//            i++;
-//        }
-//        return minDiff;
-//    }
-//}
-
-
-//Submitted approach
 import java.util.ArrayList;
 import java.util.Collections;
-class chocolateDistribution {
-    public int findMinDiff(ArrayList<Integer> arr, int m) {
-        Collections.sort(arr);
-        int minDiff=Integer.MAX_VALUE;
+public class chocolateDistribution {
 
-        for(int i=0;i<=arr.size()-m;i++){
-            int diff=arr.get(i+m-1)-arr.get(i);
-            minDiff= Math.min(diff,minDiff);
+    public int findMinDiff(ArrayList<Integer> arr, int m) {
+        // Edge case: Not enough packets to give each student one
+        if (arr == null || arr.size() < m || m == 0) return 0;
+
+        // Step 1: Sort the array in ascending order
+        Collections.sort(arr);
+
+        int minDiff = Integer.MAX_VALUE;
+
+        // Step 2: Use a sliding window of size 'm'
+        // Start from index 0 to (n - m), inclusive
+        for (int i = 0; i <= arr.size() - m; i++) {
+            // Find difference between max and min in this group
+            int currentDiff = arr.get(i + m - 1) - arr.get(i);
+
+            // Update the minimum difference found so far
+            minDiff = Math.min(minDiff, currentDiff);
         }
+
+        // Step 3: Return the smallest possible difference
         return minDiff;
     }
 }
