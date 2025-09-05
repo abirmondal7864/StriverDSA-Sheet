@@ -1,5 +1,6 @@
 package arrays.easy;
 
+import java.util.HashSet;
 public class ContainsDuplicate {
 
         public boolean containsDuplicate(int[] nums) {
