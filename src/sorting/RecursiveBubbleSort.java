@@ -5,7 +5,7 @@ package sorting;
  * Replaces the outer loop with recursion.
  */
 public class RecursiveBubbleSort {
-    public static void bubbleSort(int[] arr) {
+    public static void bubbleSortRec(int[] arr) {
         int n = arr.length;
         if (n == 1) return; // Base case
 
@@ -19,6 +19,6 @@ public class RecursiveBubbleSort {
         }
 
         // Recursive call for the rest
-        bubbleSort(arr, n - 1);
+        bubbleSortRec(arr);
     }
 }
