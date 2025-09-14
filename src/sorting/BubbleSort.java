@@ -1,7 +1,7 @@
 package sorting;
 
 /**
- * Solution class containing a Bubble Sort implementation.
+ * MergeSort class containing a Bubble Sort implementation.
  */
 class BubbleSort {
     /**
