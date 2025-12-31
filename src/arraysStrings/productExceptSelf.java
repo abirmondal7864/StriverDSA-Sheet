@@ -1,4 +1,5 @@
 package arraysStrings;
+
 /**
  * LeetCode 238 – Product of Array Except Self
  *
@@ -23,7 +24,7 @@ package arraysStrings;
  * with the corresponding prefix value.</li>
  * </ol>
  */
-class productExceptSelf {
+class Solution {
 
     /**
      * Returns an array where each index contains the product of all elements in
