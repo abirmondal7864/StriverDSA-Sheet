@@ -24,7 +24,7 @@ package arraysStrings;
  * with the corresponding prefix value.</li>
  * </ol>
  */
-class Solution {
+class ProductExceptSelf {
 
     /**
      * Returns an array where each index contains the product of all elements in
