@@ -9,7 +9,7 @@ package arraysStrings;
  * candidate in O(n) time and O(1) space, followed by a verification step to
  * handle cases where the majority element is NOT guaranteed.
  */
-class Solution {
+class MajorityElement {
 
     /**
      * Finds the majority element in the array.
