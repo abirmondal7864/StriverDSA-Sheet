@@ -1,6 +1,6 @@
-# 📘 Striver DSA Sheet – Curated Solutions
+# 📘 DSA Sheet – Curated Solutions
 
-Welcome to my **DSA journey** using Striver’s A2Z sheet.  
+Welcome to my **DSA journey** !  
 This repo contains my **curated, well-written solutions** organized by topic.  
 
 ---
