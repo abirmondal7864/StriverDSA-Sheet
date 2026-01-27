@@ -1,6 +1,6 @@
 package hashing;
 
-class Solution {
+class FirstUniqChar {
 
     /**
      * Returns the index of the first non-repeating character in the string.
