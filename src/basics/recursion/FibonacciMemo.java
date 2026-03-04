@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * Solution class to calculate the nth Fibonacci number using memoization (top-down DP).
  */
-class FibonacciNumber {
+class FibonacciMemo {
 
     /**
      * Public method to calculate the nth Fibonacci number.
