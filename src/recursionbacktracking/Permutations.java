@@ -1,4 +1,7 @@
 package recursionbacktracking;
+
+import java.util.*;
+
 class Permutations {
 
     /**
