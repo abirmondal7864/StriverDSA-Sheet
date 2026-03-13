@@ -27,7 +27,7 @@ class Solution {
         while (curr != null || !stack.isEmpty()) {
 
             while (curr != null) {
-                stack.push(curr);      // go left
+                stack.push(curr);      // go as left as possible
                 curr = curr.left;
             }
 
