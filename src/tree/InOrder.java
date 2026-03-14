@@ -16,7 +16,7 @@ import java.util.*;
  * Time Complexity: O(n)
  * Space Complexity: O(h)  // h = height of the tree
  */
-class Solution {
+class InOrder {
 
     public List<Integer> inorderTraversal(TreeNode root) {
 
