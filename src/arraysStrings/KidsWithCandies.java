@@ -1,5 +1,8 @@
 package arraysstrings;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Finds which kids have the greatest number of candies after receiving the extra candies.
  *
