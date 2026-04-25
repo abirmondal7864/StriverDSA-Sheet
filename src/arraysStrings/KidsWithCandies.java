@@ -1,3 +1,5 @@
+package arraysStrings;
+
 class KidsWithCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         // Step 1: Find max of candies

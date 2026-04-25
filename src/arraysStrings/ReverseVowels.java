@@ -1,3 +1,5 @@
+package arraysStrings;
+
 class ReverseVowels {
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();

@@ -1,3 +1,5 @@
+package arraysStrings;
+
 class IncreasingTriplet {
     public boolean increasingTriplet(int[] nums) {
         int first = Integer.MAX_VALUE;

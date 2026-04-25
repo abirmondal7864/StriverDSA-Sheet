@@ -1,3 +1,5 @@
+package arraysStrings;
+
 class StringCompression {
     public int compress(char[] chars) {
         int i = 0; // start of group
