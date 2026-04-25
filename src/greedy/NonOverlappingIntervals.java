@@ -1,5 +1,12 @@
 package greedy;
 
+/**
+ * Finds the minimum number of intervals to remove to make the rest non-overlapping.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N log N)
+ * <br><b>Space Complexity:</b> O(1)
+ */
 class NonOverlappingIntervals {
     public int eraseOverlapIntervals(int[][] intervals) {
         // Step 1: Sort by end time

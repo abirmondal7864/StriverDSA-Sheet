@@ -1,5 +1,12 @@
 package heap;
 
+/**
+ * Merges k sorted linked lists into one sorted linked list.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N log K) where N is total nodes
+ * <br><b>Space Complexity:</b> O(K) priority queue space
+ */
 class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
         // Min Heap based on node value

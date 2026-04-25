@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Merges two strings by adding letters in alternating order.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(M + N)
+ * <br><b>Space Complexity:</b> O(M + N)
+ */
 class MergeStringsAlternately {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder result = new StringBuilder();

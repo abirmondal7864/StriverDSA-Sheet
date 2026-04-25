@@ -1,5 +1,12 @@
 package greedy;
 
+/**
+ * Assigns cookies to children to maximize the number of content children.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N log N)
+ * <br><b>Space Complexity:</b> O(1) assuming sort is in-place
+ */
 class AssignCookies {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g); // sort greed

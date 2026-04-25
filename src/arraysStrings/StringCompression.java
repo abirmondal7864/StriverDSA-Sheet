@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Compresses an array of characters in-place using run-length encoding.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(1)
+ */
 class StringCompression {
     public int compress(char[] chars) {
         int i = 0; // start of group

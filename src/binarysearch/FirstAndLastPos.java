@@ -1,6 +1,6 @@
 package binarysearch;
 
-class First&LastPos {
+class FirstAndLastPos {
 
     /**
      * Finds the first and last position of a target value in a sorted array.

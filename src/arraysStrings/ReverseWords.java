@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Reverses the order of words in a string, ensuring single spaces between words.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(N)
+ */
 class ReverseWords {
     public String reverseWords(String s) {
         StringBuilder res = new StringBuilder();

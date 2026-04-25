@@ -1,5 +1,12 @@
 package greedy;
 
+/**
+ * Determines if you can reach the last index of the array.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(1)
+ */
 class JumpGame{
     public boolean canJump(int[]nums){
         int maxReach=0;

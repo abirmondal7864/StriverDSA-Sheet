@@ -1,4 +1,4 @@
-package arraysStrings;
+package arraysstrings;
 /**
  * Checks whether two strings are valid anagrams.
  *

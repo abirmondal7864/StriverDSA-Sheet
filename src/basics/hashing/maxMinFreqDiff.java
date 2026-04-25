@@ -6,7 +6,7 @@ import java.util.*;
  * A utility class to calculate the difference between the highest
  * and lowest frequencies of elements in an integer array.
  */
-public class maxMinFreqDiff {
+public class MaxMinFreqDiff {
 
     /**
      * Finds the difference between the maximum and minimum frequency

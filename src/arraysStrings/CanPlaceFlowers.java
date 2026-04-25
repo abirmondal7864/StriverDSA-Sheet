@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Checks if 'n' new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(1)
+ */
 class CanPlaceFlowers {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int count = 0;

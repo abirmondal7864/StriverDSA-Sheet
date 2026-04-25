@@ -1,4 +1,11 @@
 package basics.math;
+/**
+ * Checks if a given number is an Armstrong number.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(log N) where N is the number
+ * <br><b>Space Complexity:</b> O(1)
+ */
 class ArmstrongNumber {
     static boolean armstrongNumber(int n) {
         int orgNum = n;

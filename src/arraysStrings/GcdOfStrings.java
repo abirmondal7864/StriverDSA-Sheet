@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Finds the greatest common divisor of two strings.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(M + N)
+ * <br><b>Space Complexity:</b> O(M + N)
+ */
 class GcdOfStrings {
     public String gcdOfStrings(String str1, String str2) {
 

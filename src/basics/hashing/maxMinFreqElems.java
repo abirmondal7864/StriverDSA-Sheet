@@ -7,7 +7,7 @@ import java.util.Map;
  * This program finds the element with the highest and lowest frequency
  * in an integer array.
  */
-public class maxMinFreqElems {
+public class MaxMinFreqElems {
     /**
      * Finds and prints the elements with the highest and lowest frequency
      * in the given array.

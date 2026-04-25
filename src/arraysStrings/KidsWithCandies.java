@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Finds which kids have the greatest number of candies after receiving the extra candies.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(N)
+ */
 class KidsWithCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         // Step 1: Find max of candies

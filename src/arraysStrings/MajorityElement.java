@@ -1,4 +1,4 @@
-package arraysStrings;
+package arraysstrings;
 
 /**
  * Solution class to find the Majority Element in an array.

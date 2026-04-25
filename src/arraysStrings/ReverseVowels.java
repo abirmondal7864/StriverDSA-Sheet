@@ -1,5 +1,12 @@
-package arraysStrings;
+package arraysstrings;
 
+/**
+ * Reverses only the vowels of a string in-place.
+ *
+ * <p>
+ * <b>Time Complexity:</b> O(N)
+ * <br><b>Space Complexity:</b> O(N) for character array
+ */
 class ReverseVowels {
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();

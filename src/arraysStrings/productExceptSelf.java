@@ -1,4 +1,4 @@
-package arraysStrings;
+package arraysstrings;
 
 /**
  * LeetCode 238 – Product of Array Except Self

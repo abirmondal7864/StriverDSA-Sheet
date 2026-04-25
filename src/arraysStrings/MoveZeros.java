@@ -1,4 +1,4 @@
-package arraysStrings;
+package arraysstrings;
 
 /**
  * Moves all zero elements of the array to the end while maintaining the
